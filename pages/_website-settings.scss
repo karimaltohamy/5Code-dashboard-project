@@ -1,0 +1,200 @@
+$main-color: #212529;
+$primary-color: #7367f0;
+$dark-text: #324664;
+
+// start website_settings
+.website_settings {
+  margin: 30px 10px;
+
+  .title {
+    font-size: 27px;
+    color: $main-color;
+  }
+
+  .custom_card {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(224, 224, 224);
+
+    .card_header {
+      padding: 10px;
+      border-bottom: 1px solid rgb(228, 228, 228);
+
+      h5 {
+        margin-bottom: 0;
+        font-size: 15px;
+        padding: 4px 7px;
+        border-radius: 8px;
+        background-color: #f2eefc;
+        color: $primary-color;
+        width: fit-content;
+      }
+    }
+
+    .card_content {
+      padding: 15px;
+
+      .input_item {
+        margin-bottom: 15px;
+
+        label {
+          display: block;
+          font-weight: 500;
+          color: #8c9097;
+          margin-bottom: 6px;
+        }
+
+        input {
+          padding: 6px 10px;
+          border: 1px solid #e9edf6;
+          outline: none;
+          border-radius: 8px;
+          width: 100%;
+          font-size: 15px;
+          color: gray;
+
+          &::placeholder {
+            color: rgb(195, 195, 195);
+            font-size: 14px;
+          }
+
+          &:focus {
+            border: 1px solid $primary-color;
+          }
+        }
+
+        .ql-toolbar {
+          border: 1px solid #e9edf6;
+        }
+
+        .ql-container {
+          border: 1px solid #e9edf6;
+        }
+      }
+
+      .input_group {
+        margin-top: 10px;
+
+        .subtitle {
+          font-size: 15px;
+          font-weight: 500;
+          color: $dark-text;
+          text-align: center;
+          display: block;
+        }
+
+        .inputs_check {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+
+          label {
+            font-size: 14px;
+            font-weight: 500;
+            color: $dark-text;
+          }
+        }
+      }
+
+      .input_file {
+        margin-top: 15px;
+        span {
+          font-size: 15px;
+          font-weight: 500;
+        }
+
+        label {
+          padding: 8px;
+          font-size: 15px;
+          border-radius: 5px;
+          width: 100%;
+          position: relative;
+          cursor: pointer;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+          gap: 6px;
+
+          i {
+            font-size: 22px;
+          }
+        }
+
+        input {
+          display: none;
+        }
+      }
+    }
+
+    .card_footer {
+      padding: 10px;
+      border-top: 1px solid rgb(228, 228, 228);
+      display: flex;
+      justify-content: end;
+
+      .btn_save {
+        border: none;
+        background-color: $primary-color;
+        color: white;
+        font-weight: 600;
+        padding: 6px 9px;
+        border-radius: 6px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .website_settings {
+    margin: 20px 10px;
+
+    .title {
+      font-size: 20px;
+    }
+
+    .custom_card {
+      margin-top: 10px;
+
+      .card_header {
+        padding: 8px;
+
+        h5 {
+          font-size: 15px;
+          padding: 4px 7px;
+        }
+      }
+
+      .card_content {
+        .input_item {
+          margin-bottom: 10px;
+
+          label {
+            font-size: 14px;
+          }
+
+          input {
+            padding: 3px 8px;
+          }
+        }
+
+        .input_group {
+          .subtitle {
+            font-size: 13px;
+          }
+        }
+      }
+
+      .card_footer {
+        padding: 8px;
+
+        .btn_save {
+          padding: 5px 10px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+// end website_settings

@@ -3,6 +3,9 @@
 @use "../components/popups";
 @use "../pages/index";
 @use "../pages/handle-table";
+@use "../pages/website-settings";
+@use "../pages/login";
+@use "../pages/profile-page";
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
@@ -39,7 +42,7 @@ svg {
 
 // start main
 main {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
 
   .sidebar {

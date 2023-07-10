@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>5Code Dashboard | Manage Testimonials</title>
+    <title>5Code Dashboard | Main menu table</title>
     <link rel="stylesheet" href="css/style.css" />
     <!-- boostrap -->
     <link rel="stylesheet" href="css/bootstrap.css" />
@@ -135,7 +135,7 @@
             </div>
           </a>
           <div class="mini_list">
-            <div class="link_item active" data-num="4">
+            <div class="link_item" data-num="4">
               <div class="text">
                 <div class="icon">
                   <i class="fa-regular fa-clipboard"></i>
@@ -172,7 +172,7 @@
             </ul>
           </div>
           <div class="mini_list">
-            <div class="link_item" data-num="5">
+            <div class="link_item active" data-num="5">
               <div class="text">
                 <div class="icon">
                   <i class="fa-solid fa-gear"></i>
@@ -293,7 +293,7 @@
           <div class="conetnt_table">
             <div class="head_table">
               <div class="info">
-                <button class="btn_add">Add Services</button>
+                <button class="btn_add">Add Menu Link</button>
               </div>
               <select>
                 <option value="">English</option>
@@ -305,25 +305,16 @@
                 <thead>
                   <tr>
                     <th>Name</th>
-                    <th>Position</th>
-                    <th>Subtitle</th>
-                    <th>Title</th>
-                    <th>Description</th>
+                    <th>Link</th>
+                    <th>Order</th>
                     <th>Actions</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr class="col">
-                    <td>Lucian Ionut</td>
-                    <td>programmer</td>
-                    <td>Clients Opinion</td>
-                    <td>Absolutely awesome</td>
-                    <td>
-                      "5Code was the perfect solution for our business. I would
-                      recommend their services as it was the most valuable web
-                      development resource we have ever purchased. We’ve seen
-                      amazing results already."
-                    </td>
+                    <td>Home</td>
+                    <td>/en/mobile-app-development-company-dubai</td>
+                    <td>1</td>
                     <td>
                       <div class="btns">
                         <button class="btn_delete">
@@ -336,16 +327,9 @@
                     </td>
                   </tr>
                   <tr class="col">
-                    <td>Lucian Ionut</td>
-                    <td>programmer</td>
-                    <td>Clients Opinion</td>
-                    <td>Absolutely awesome</td>
-                    <td>
-                      "5Code was the perfect solution for our business. I would
-                      recommend their services as it was the most valuable web
-                      development resource we have ever purchased. We’ve seen
-                      amazing results already."
-                    </td>
+                    <td>About us</td>
+                    <td>/en/android-app-development-dubai</td>
+                    <td>2</td>
                     <td>
                       <div class="btns">
                         <button class="btn_delete">
@@ -358,60 +342,9 @@
                     </td>
                   </tr>
                   <tr class="col">
-                    <td>Lucian Ionut</td>
-                    <td>programmer</td>
-                    <td>Clients Opinion</td>
-                    <td>Absolutely awesome</td>
-                    <td>
-                      "5Code was the perfect solution for our business. I would
-                      recommend their services as it was the most valuable web
-                      development resource we have ever purchased. We’ve seen
-                      amazing results already."
-                    </td>
-                    <td>
-                      <div class="btns">
-                        <button class="btn_delete">
-                          <i class="fa-regular fa-trash-can"></i>
-                        </button>
-                        <button class="btn_update">
-                          <i class="fa-regular fa-pen-to-square"></i>
-                        </button>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="col">
-                    <td>Lucian Ionut</td>
-                    <td>programmer</td>
-                    <td>Clients Opinion</td>
-                    <td>Absolutely awesome</td>
-                    <td>
-                      "5Code was the perfect solution for our business. I would
-                      recommend their services as it was the most valuable web
-                      development resource we have ever purchased. We’ve seen
-                      amazing results already."
-                    </td>
-                    <td>
-                      <div class="btns">
-                        <button class="btn_delete">
-                          <i class="fa-regular fa-trash-can"></i>
-                        </button>
-                        <button class="btn_update">
-                          <i class="fa-regular fa-pen-to-square"></i>
-                        </button>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="col">
-                    <td>Lucian Ionut</td>
-                    <td>programmer</td>
-                    <td>Clients Opinion</td>
-                    <td>Absolutely awesome</td>
-                    <td>
-                      "5Code was the perfect solution for our business. I would
-                      recommend their services as it was the most valuable web
-                      development resource we have ever purchased. We’ve seen
-                      amazing results already."
-                    </td>
+                    <td>Portfolio</td>
+                    <td>/en/android-app-development-dubai</td>
+                    <td>3</td>
                     <td>
                       <div class="btns">
                         <button class="btn_delete">
@@ -439,7 +372,7 @@
       </div>
 
       <h3>
-        Create Testimonials
+        Create Menu Link
         <span><i class="fa-solid fa-fire-flame-curved"></i></span>
       </h3>
 
@@ -454,26 +387,20 @@
           </div>
           <div class="col-12 col-md-6">
             <div class="input_item">
-              <label for="">Position</label>
+              <label for="">Link</label>
               <input type="text" placeholder="" />
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="input_item">
-              <label for="">Subtitle</label>
-              <input type="text" placeholder="" />
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="input_item">
-              <label for="">Description</label>
+              <label for="">Order</label>
               <input type="text" placeholder="" />
             </div>
           </div>
 
           <div class="col-12 col-md-6">
             <div class="input_item">
-              <label for="">Select a language</label>
+              <label for="">Select a language </label>
               <select name="language_id" id="language_id">
                 <option value="1">English</option>
                 <option value="3">عربى</option>
@@ -481,13 +408,19 @@
             </div>
           </div>
         </div>
-        <div class="input_file">
-          <label for="export-file">
-            <i class="fa-solid fa-file-export"></i> Choose Photo
-          </label>
-          <input type="file" placeholder="" id="export-file" />
+        <div class="input_group">
+          <span class="subtitle">Enable or disable sub-menu</span>
+          <div class="input_check">
+            <input type="radio" id="on" name="sub-menu_switch" />
+            <label for="on">On</label>
+          </div>
+          <div class="input_check">
+            <input type="radio" id="off" name="sub-menu_switch" />
+            <label for="off">Off</label>
+          </div>
         </div>
-        <button class="btn_add">Create Testimonials</button>
+
+        <button class="btn_add">Create Menu Link</button>
       </form>
     </div>
     <!-- end popup Add -->
@@ -499,7 +432,7 @@
       </div>
 
       <h3>
-        Update Testimonials
+        Update Menu Link
         <span><i class="fa-solid fa-fire-flame-curved"></i></span>
       </h3>
 
@@ -509,31 +442,25 @@
             <div class="input_item">
               <span class="error">error Message</span>
               <label for="">Name </label>
-              <input type="text" placeholder="" value="Lucian Ionut" />
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="input_item">
-              <label for="">Position</label>
-              <input type="text" placeholder="" value="programmer" />
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="input_item">
-              <label for="">Subtitle</label>
               <input type="text" placeholder="" />
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="input_item">
-              <label for="">Description</label>
+              <label for="">Link</label>
+              <input type="text" placeholder="" />
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="input_item">
+              <label for="">Order</label>
               <input type="text" placeholder="" />
             </div>
           </div>
 
           <div class="col-12 col-md-6">
             <div class="input_item">
-              <label for="">Select a language</label>
+              <label for="">Select a language </label>
               <select name="language_id" id="language_id">
                 <option value="1">English</option>
                 <option value="3">عربى</option>
@@ -541,13 +468,19 @@
             </div>
           </div>
         </div>
-        <div class="input_file">
-          <label for="export-file">
-            <i class="fa-solid fa-file-export"></i> Choose Photo
-          </label>
-          <input type="file" placeholder="" id="export-file" />
+        <div class="input_group">
+          <span class="subtitle">Enable or disable sub-menu</span>
+          <div class="input_check">
+            <input type="radio" id="on" name="sub-menu_switch" />
+            <label for="on">On</label>
+          </div>
+          <div class="input_check">
+            <input type="radio" id="off" name="sub-menu_switch" />
+            <label for="off">Off</label>
+          </div>
         </div>
-        <button class="btn_add">Update Testimonials</button>
+
+        <button class="btn_add">Update Menu Link</button>
       </form>
     </div>
     <!-- end popup Add -->
